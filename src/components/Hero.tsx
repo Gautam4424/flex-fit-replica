@@ -1,4 +1,6 @@
 
+import { Link } from "react-router-dom";
+
 const Hero = () => {
   return (
     <section className="w-full bg-[#f2f2f2] py-20">
@@ -12,12 +14,12 @@ const Hero = () => {
           <p className="mt-4 text-base text-gray-700 max-w-sm">
             Brand of functional clothing for an active lifestyle.
           </p>
-           <a
-            href="#bestsellers"
+           <Link
+            to="/shop"
             className="mt-8 bg-white border border-black font-bold px-8 py-3 rounded-full shadow-lg uppercase text-sm text-black hover:bg-black hover:text-white transition-colors"
           >
             To Catalog
-          </a>
+          </Link>
         </div>
         <div className="flex justify-center md:justify-end px-4">
            <img
