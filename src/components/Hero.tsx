@@ -21,7 +21,7 @@ const Hero = () => {
         </div>
         <div className="flex justify-center md:justify-end px-4">
            <img
-            src="https://images.unsplash.com/photo-1552064569-83a8b411754d?auto=format&fit=crop&w=800&q=80"
+            src="https://images.unsplash.com/photo-1548543621-56c1a4c84545?auto=format&fit=crop&w=800&q=80"
             alt="DOLENGA WEAR model"
             className="max-h-[60vh] w-auto object-contain"
            />
