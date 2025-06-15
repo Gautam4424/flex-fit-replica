@@ -1,22 +1,15 @@
-
 const collections = [
   {
-    title: "New Arrivals",
-    img: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=900&q=80", // Orange flowers (dummy placeholder)
-    cta: "Shop New",
+    title: "Dropping Soon",
+    img: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=900&q=80", // gym interior
+    cta: "Coming Soon",
     link: "#",
   },
   {
     title: "Men's Sportswear",
-    img: "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=900&q=80", // Sports lights, energetic (dummy placeholder)
+    img: "https://images.unsplash.com/photo-1548690312-e3b507d8c110?auto=format&fit=crop&w=900&q=80", // male athlete
     cta: "Shop Men",
     link: "#shop-men",
-  },
-  {
-    title: "Women's Sportswear",
-    img: "https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&w=900&q=80", // Green mountains, outdoor/active vibe
-    cta: "Shop Women",
-    link: "#shop-women",
   },
 ];
 

@@ -8,10 +8,6 @@ const navItems = [
     collections: ["Tops", "Bottoms", "Hoodies & Jackets", "Accessories", "Sale"],
   },
   {
-    name: "WOMEN",
-    collections: ["Leggings", "Sports Bras", "Tops", "Shorts", "Accessories", "Sale"],
-  },
-  {
     name: "ACCESSORIES",
     collections: ["Bags", "Hats", "Shakers", "Socks"],
   }
@@ -25,8 +21,8 @@ const Header = () => {
       <div className="flex items-center justify-between px-8 py-1 h-16">
         {/* Logo */}
         <div className="flex-shrink-0 flex items-center">
-          <a href="/" className="font-black text-2xl tracking-wide uppercase hover:opacity-80 transition-opacity">
-            GYMSHARK
+          <a href="/" className="font-orbitron font-black text-2xl tracking-widest uppercase hover:opacity-80 transition-opacity">
+            SOCIETY
           </a>
         </div>
         {/* Desktop Nav */}
