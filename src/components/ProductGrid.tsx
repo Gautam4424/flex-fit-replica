@@ -3,43 +3,43 @@ import ProductCard from "./ProductCard";
 
 const products = [
   {
-    name: "Vital Seamless 2.0 T-Shirt",
-    img: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=500&q=80",
+    name: "Official Match Soccer Ball",
+    img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=500&q=80",
     price: "$35.00"
   },
   {
-    name: "Apex Seamless Leggings",
-    img: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=500&q=80",
+    name: "Pro Tennis Racket",
+    img: "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=500&q=80",
     price: "$50.00"
   },
   {
-    name: "Arrival Shorts",
-    img: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=500&q=80",
-    price: "$25.00"
+    name: "Performance Running Shoes",
+    img: "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=500&q=80",
+    price: "$89.00"
   },
   {
-    name: "Adapt Fleck Sports Bra",
-    img: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&w=500&q=80",
-    price: "$30.00"
+    name: "Adjustable Dumbbells Set",
+    img: "https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=500&q=80",
+    price: "$120.00"
   },
   {
-    name: "Studio Hoodie",
-    img: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=500&q=80",
+    name: "Basketball Jersey",
+    img: "https://images.unsplash.com/photo-1508766206392-8bd5cf550d1d?auto=format&fit=crop&w=500&q=80",
     price: "$55.00"
   },
   {
-    name: "Crest Joggers",
-    img: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=500&q=80",
+    name: "Sports Water Bottle",
+    img: "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=500&q=80",
+    price: "$18.00"
+  },
+  {
+    name: "Professional Boxing Gloves",
+    img: "https://images.unsplash.com/photo-1457972729784-dc26133c7e86?auto=format&fit=crop&w=500&q=80",
     price: "$60.00"
   },
   {
-    name: "Legacy Stringer",
-    img: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=500&q=80",
-    price: "$22.00"
-  },
-  {
-    name: "Training Crop Vest",
-    img: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=500&q=80",
+    name: "Yoga Mat",
+    img: "https://images.unsplash.com/photo-1516205651411-aef33a44f7c2?auto=format&fit=crop&w=500&q=80",
     price: "$28.00"
   }
 ];

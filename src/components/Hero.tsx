@@ -3,17 +3,17 @@ const Hero = () => {
   return (
     <section className="relative w-full h-[52vw] max-h-[720px] flex items-center justify-start bg-gray-200 overflow-hidden">
       <img
-        src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1600&q=80"
-        alt="Gymshark collection"
+        src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80" // Soccer ball on sports field
+        alt="Sports collection"
         className="absolute inset-0 w-full h-full object-cover object-center pointer-events-none select-none"
         draggable={false}
       />
       <div className="relative z-10 max-w-2xl mx-12 flex flex-col gap-6">
         <h1 className="font-extrabold text-4xl sm:text-6xl tracking-tight text-white drop-shadow-lg">
-          FITNESS APPAREL<br /> ENGINEERED FOR PERFORMANCE.
+          PERFORMANCE SPORTS GEAR<br /> ENGINEERED FOR ATHLETES.
         </h1>
         <p className="text-2xl text-white/90 font-medium max-w-xl mb-2">
-          Everything you need to feel your best — shop our latest collections now.
+          Everything you need to reach your goals — shop our sports collections now.
         </p>
         <div className="flex gap-4 mt-2">
           <a

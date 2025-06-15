@@ -1,20 +1,20 @@
 
 const collections = [
   {
-    title: "New Releases",
-    img: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&w=900&q=80",
+    title: "New Arrivals",
+    img: "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=900&q=80", // Running shoes on track
     cta: "Shop New",
     link: "#",
   },
   {
-    title: "Men's Essentials",
-    img: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=900&q=80",
+    title: "Men's Sportswear",
+    img: "https://images.unsplash.com/photo-1508766206392-8bd5cf550d1d?auto=format&fit=crop&w=900&q=80", // Basketball jersey
     cta: "Shop Men",
     link: "#shop-men",
   },
   {
-    title: "Women's Essentials",
-    img: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=900&q=80",
+    title: "Women's Sportswear",
+    img: "https://images.unsplash.com/photo-1516205651411-aef33a44f7c2?auto=format&fit=crop&w=900&q=80", // Yoga mat
     cta: "Shop Women",
     link: "#shop-women",
   },
