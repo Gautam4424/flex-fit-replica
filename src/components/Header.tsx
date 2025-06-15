@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Menu } from "lucide-react";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
@@ -55,7 +54,9 @@ const Header = () => {
         <div className="flex items-center gap-3 text-sm">
           <a href="#" className="hover:underline hidden md:inline">Help</a>
           <a href="#" className="hover:underline hidden md:inline">Find a Store</a>
-          <a href="#" className="font-semibold">Sign In</a>
+          {/* Use Link for SPA navigation */}
+          <a href="/login" className="font-semibold text-primary hover:underline hidden md:inline">Sign In</a>
+          <a href="/signup" className="font-semibold text-primary hover:underline hidden md:inline">Sign Up</a>
           {/* Mobile burger */}
           <button className="md:hidden p-1 text-xl" aria-label="menu">
             <Menu size={28} />
