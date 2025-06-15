@@ -1,33 +1,17 @@
 
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import { Link } from "react-router-dom";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Mail, Lock, LogIn } from "lucide-react";
 
 const Login = () => (
-  <div className="flex min-h-screen">
-    {/* Left Branding/Visual Section - hides on mobile */}
-    <div className="hidden lg:flex flex-col justify-between bg-background border-r border-border w-1/2 p-12 min-h-screen relative">
-      <div>
-        <a href="/" className="block mb-10">
-          <span className="font-black text-3xl uppercase tracking-widest text-primary">
-            GYMSHARK
-          </span>
-        </a>
-        <h2 className="text-3xl font-bold mb-3">Sign in to your account</h2>
-        <p className="text-muted-foreground text-base">
-          Welcome back! Log in to continue your fitness journey with Gymshark.
-        </p>
-      </div>
-      <footer className="text-xs text-muted-foreground absolute bottom-6 left-12">
-        By signing in, you agree to our <a href="#" className="underline hover:text-primary">Terms & Conditions</a> and <a href="#" className="underline hover:text-primary">Privacy Policy</a>.
-      </footer>
-    </div>
-
-    {/* Login form section */}
-    <div className="flex-1 flex items-center justify-center bg-card">
+  <div className="bg-background min-h-screen flex flex-col text-foreground font-inter">
+    <Header />
+    <main className="flex-1 flex items-center justify-center py-12">
       <div className="w-full max-w-md px-8 md:px-12 py-14 rounded-none md:rounded-lg shadow-lg bg-card">
-        <h3 className="font-bold text-2xl mb-6 lg:hidden text-center">Sign in to your account</h3>
+        <h3 className="font-bold text-2xl mb-6 text-center">Sign in to your account</h3>
         <form className="space-y-6">
           {/* Email */}
           <div>
@@ -110,7 +94,8 @@ const Login = () => (
           &copy; {new Date().getFullYear()} Gymshark. All rights reserved.
         </div>
       </div>
-    </div>
+    </main>
+    <Footer />
   </div>
 );
 
