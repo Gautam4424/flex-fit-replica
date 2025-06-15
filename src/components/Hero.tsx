@@ -1,28 +1,32 @@
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-[52vw] max-h-[720px] flex items-center justify-start bg-gray-200 overflow-hidden">
-      <img
-        src="https://images.unsplash.com/photo-1517836357463-d25769a63512?auto=format&fit=crop&w=1600&q=80" // person working out
-        alt="Sports collection"
-        className="absolute inset-0 w-full h-full object-cover object-center pointer-events-none select-none"
-        draggable={false}
-      />
-      <div className="relative z-10 max-w-2xl mx-12 flex flex-col gap-6">
-        <h1 className="font-extrabold text-4xl sm:text-6xl tracking-tight text-white drop-shadow-lg uppercase">
-          DOLENGA, <br /> SPORTSWEAR FOR YOU
-        </h1>
-        <div className="flex gap-4 mt-2">
-          <a
-            href="#discover"
-            className="bg-transparent border-2 border-white font-bold px-8 py-3 rounded-full shadow-lg uppercase text-lg text-white hover:bg-white hover:text-black transition-colors hover:scale-105"
+    <section className="w-full bg-[#f2f2f2] py-20">
+      <div className="container mx-auto grid md:grid-cols-2 gap-8 items-center">
+        <div className="flex flex-col items-start px-4">
+          <h1 className="font-orbitron font-black text-6xl md:text-8xl tracking-tighter text-black uppercase leading-none">
+            DOLENGA
+            <br />
+            WEAR
+          </h1>
+          <p className="mt-4 text-base text-gray-700 max-w-sm">
+            Brand of functional clothing for an active lifestyle.
+          </p>
+           <a
+            href="#bestsellers"
+            className="mt-8 bg-white border border-black font-bold px-8 py-3 rounded-full shadow-lg uppercase text-sm text-black hover:bg-black hover:text-white transition-colors"
           >
-            Discover
+            To Catalog
           </a>
         </div>
+        <div className="flex justify-center md:justify-end px-4">
+           <img
+            src="https://images.unsplash.com/photo-1552064569-83a8b411754d?auto=format&fit=crop&w=800&q=80"
+            alt="DOLENGA WEAR model"
+            className="max-h-[60vh] w-auto object-contain"
+           />
+        </div>
       </div>
-      {/* overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-transparent to-black/30 pointer-events-none"></div>
     </section>
   );
 };

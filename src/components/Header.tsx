@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Menu } from "lucide-react";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
@@ -22,7 +23,7 @@ const Header = () => {
         {/* Logo */}
         <div className="flex-shrink-0 flex items-center">
           <a href="/" className="font-orbitron font-black text-2xl tracking-widest uppercase hover:opacity-80 transition-opacity">
-            SOCIETY
+            DOLENGA
           </a>
         </div>
         {/* Desktop Nav */}
