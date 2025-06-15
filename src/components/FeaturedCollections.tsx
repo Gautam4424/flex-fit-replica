@@ -2,19 +2,19 @@
 const collections = [
   {
     title: "New Arrivals",
-    img: "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=900&q=80", // Running shoes on track
+    img: "https://images.unsplash.com/photo-1530054675519-3a27e21e6ee8?auto=format&fit=crop&w=900&q=80", // Running on track
     cta: "Shop New",
     link: "#",
   },
   {
     title: "Men's Sportswear",
-    img: "https://images.unsplash.com/photo-1508766206392-8bd5cf550d1d?auto=format&fit=crop&w=900&q=80", // Basketball jersey
+    img: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?auto=format&fit=crop&w=900&q=80", // Basketball/Men's wear
     cta: "Shop Men",
     link: "#shop-men",
   },
   {
     title: "Women's Sportswear",
-    img: "https://images.unsplash.com/photo-1516205651411-aef33a44f7c2?auto=format&fit=crop&w=900&q=80", // Yoga mat
+    img: "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=900&q=80", // Yoga mat/women sportswear
     cta: "Shop Women",
     link: "#shop-women",
   },
