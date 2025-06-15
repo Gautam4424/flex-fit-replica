@@ -3,7 +3,7 @@ const Hero = () => {
   return (
     <section className="relative w-full h-[52vw] max-h-[720px] flex items-center justify-start bg-gray-200 overflow-hidden">
       <img
-        src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?auto=format&fit=crop&w=1600&q=80" // Basketball court
+        src="https://images.unsplash.com/photo-1615729947596-a598e5de0ab3?auto=format&fit=crop&w=1600&q=80" // Sporty grass field & mountain (placeholder)
         alt="Sports collection"
         className="absolute inset-0 w-full h-full object-cover object-center pointer-events-none select-none"
         draggable={false}
