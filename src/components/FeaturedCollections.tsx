@@ -7,7 +7,7 @@ const FeaturedCollections = () => (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 h-[60vh]">
       <div className="relative group rounded-lg overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1579952261383-2ab69a495346?auto=format&fit=crop&w=900&q=80"
+          src="https://images.unsplash.com/photo-1549060279-7e168f91c2b5?auto=format&fit=crop&w=900&q=80"
           alt="Collection 1"
           className="object-cover h-full w-full transition-transform duration-300 group-hover:scale-105"
         />
@@ -22,7 +22,7 @@ const FeaturedCollections = () => (
       </div>
       <div className="relative group rounded-lg overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=900&q=80"
+          src="https://images.unsplash.com/photo-1517963878938-c031633596b4?auto=format&fit=crop&w=900&q=80"
           alt="Collection 2"
           className="object-cover h-full w-full transition-transform duration-300 group-hover:scale-105"
         />
